@@ -50,6 +50,32 @@
                     </div>
                 </div>
             </div>
+            <div id="navbar-sm" style="display: none;">
+                <div class="nav-bg"></div>
+                <div class="nav-content fadeInRight animated">
+                    <ul class="nav">
+                        <li>
+                            <a href="/">Trang chủ</a>
+                        </li>
+                        <li>
+                            <a href="https://blog.grablingo.com">Blog</a>
+                        </li>
+                        <li>
+                            <a href="/session/signin">Đăng nhập</a>
+                        </li>
+                        <li>
+                            <a href="/session/signup">Đăng ký</a>
+                        </li>
+                        <li class="switchLanguageBtn">
+                            <div style="display: inline-block; margin: 15px 15px 0px 10px;">
+                                <a class="select-language">Ngôn ngữ trang&nbsp;
+                                    <span class="language flag-icon flag-icon-vn"> </span>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -555,6 +581,12 @@
         })
         $('#intro5 .item_content').on('mouseleave', function () {
             $(this).find('.info_hidden').css('top','100%');
+        })
+        $('body').on('click','#banner_header .template-nav-toggle', function () {
+            $('#navbar-sm').show();
+        })
+        $('body').on('click', '#banner_header .nav-bg', function () {
+            $('#navbar-sm').hide();
         })
     })
 </script>
