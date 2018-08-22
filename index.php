@@ -258,7 +258,8 @@
                 <h2>ĐỘI NGŨ GIÁO VIÊN</h2>
                 <h3>Chúng tôi chỉ tuyển chọn những giáo viên bản ngữ có nhiều năm kinh nghiệm trong giảng dạy tiếng Anh trực tuyến.</h3>
             </div>
-            <div class="row">
+            <div class="row row_responsive">
+                <?php include_once "carousel1.php" ?>
                 <?php include_once "carousel2.php" ?>
             </div>
             <div class="row btn_register1" style="margin-bottom: 50px">
@@ -471,6 +472,22 @@
         $('body').on('click', '#banner_header .nav-bg', function () {
             $('#navbar-sm').hide();
         })
+        if ($(window).width() < 676){
+            $('#carousel-simple1').hide();
+            $('#carousel-simple2').show();
+        }
+        $(window).on('resize', function(){
+            var win = $(this); //this = window
+            console.log(win.width());
+            if (win.width() >= 676) {
+                $('#carousel-simple1').show();
+                $('#carousel-simple2').hide();
+            }
+            else {
+                $('#carousel-simple1').hide();
+                $('#carousel-simple2').show();
+            }
+        });
     })
 </script>
 </body>

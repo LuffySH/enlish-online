@@ -1,4 +1,4 @@
-<div id="carousel-simple2" class="carousel slide carousel-fade carouself">
+<div id="carousel-simple2" class="carousel slide carousel-fade carouself" style="display: none">
     <ol class="carousel-indicators">
         <li class="active" style="margin-left:10px;" data-target="#carousel-simple2" data-slide-to="0"></li>
         <li class="" style="margin-left:10px;" data-target="#carousel-simple2" data-slide-to="1"></li>
