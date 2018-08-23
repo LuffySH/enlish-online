@@ -929,38 +929,35 @@ img{
 #register_modal h2{
     font-weight: 800;
     margin-bottom: 10px;
+    font-size: 15px;
 }
 #register_modal h3{
-    margin: 10px;
     color: #555;
-    font-size: 21px;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
 #register_modal .modal-body{
-    padding: 0px 45px;
+    padding: 0px 25px;
+}
+#register_modal .modal-footer{
+    padding: 10px 25px;
+    border: none;
+    padding-bottom: 15px;
 }
 #register_modal .modal-body input{
     border: 1px solid #000;
-    height: 39px;
+    /*height: 39px;*/
 }
 #register_modal .btn_submit_register{
     background-color: var(--background-color);
     color: #fff;
     width: 100%;
-    padding: 10px;
+    padding: 5px;
     font-weight: 800;
-    font-size: 16px;
-}
-@media (min-width: 1026px){
-    .modal-dialog {
-        width: 800px;
-        margin: 30px auto;
-    }
-    #register_modal .modal-body{
-        padding: 0px 20px;
-    }
 }
 @media (min-width: 768px){
-    #register_modal .modal-body{
-        padding: 0px 20px;
+    .modal-dialog {
+        width: 500px;
     }
 }

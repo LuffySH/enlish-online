@@ -483,8 +483,10 @@
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="public/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
-<script src="public/js/jquery.mobile.swiper.js"></script>
+<!--<script src="public/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>-->
+<!--<script src="public/js/jquery.mobile.swiper.js"></script>-->
+<!--<script src="public/js/jquery.mobile-1.4.5.min.js"></script>-->
+<script src="http://code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.js"></script>
 <script>
     $(document).ready(function () {
         $('#intro5 .item_content').on('mouseover', function () {
@@ -515,16 +517,17 @@
                 $('#carousel-simple2').show();
             }
         });
-        $('#carousel_banner').bcSwipe({ threshold: 50 });
-        $('#carousel-simple1').bcSwipe({ threshold: 50 });
-        $('#carousel-simple2').bcSwipe({ threshold: 50 });
-        $('#carousel-simple-video').bcSwipe({ threshold: 50 });
-//        $("#carousel_banner").swiperight(function() {
-//            $(this).carousel('prev');
-//        });
-//        $("#carousel_banner").swipeleft(function() {
-//            $(this).carousel('next');
-//        });
+//        $('#carousel_banner').bcSwipe({ threshold: 1 });
+//        $('#carousel-simple1').bcSwipe({ threshold: 50 });
+//        $('#carousel-simple2').bcSwipe({ threshold: 50 });
+//        $('#carousel-simple-video').bcSwipe({ threshold: 50 });
+            $(".carousel-inner").swiperight(function() {
+                $(this).parent().carousel('prev');
+            });
+            $(".carousel-inner").swipeleft(function() {
+                $(this).parent().carousel('next');
+            });
+
     })
 </script>
 </body>
