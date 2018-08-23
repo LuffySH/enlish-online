@@ -52,6 +52,14 @@ img{
     line-height: 1.5;
     text-transform: uppercase;
 }
+@media (max-width: 676px){
+    .container .section-heading {
+        padding-bottom: 10px;
+    }
+    .container .section-heading h2{
+        line-height: 1;
+    }
+}
 /*---------------------------------------------------------------------*/
 /*banner_header*/
 #banner_header{
@@ -332,6 +340,11 @@ img{
 #banner_slide .carousel-inner .item_img3{
     height: 100%;
     background: url(../../public/imgs/banner/BANNER-3--LANGDING-PAGE.png) 0% 0% / 100% 100% no-repeat;
+}
+@media (max-width: 676px){
+    #banner_slide .carousel-indicators {
+        bottom: -10px;
+    }
 }
 /*intro1*/
 #intro1{
@@ -911,4 +924,43 @@ img{
     border-top: 1px solid #a1a1a1;
     color: #afafaf;
     padding: 20px 0;
+}
+/*modal*/
+#register_modal h2{
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+#register_modal h3{
+    margin: 10px;
+    color: #555;
+    font-size: 21px;
+}
+#register_modal .modal-body{
+    padding: 0px 45px;
+}
+#register_modal .modal-body input{
+    border: 1px solid #000;
+    height: 39px;
+}
+#register_modal .btn_submit_register{
+    background-color: var(--background-color);
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    font-weight: 800;
+    font-size: 16px;
+}
+@media (min-width: 1026px){
+    .modal-dialog {
+        width: 800px;
+        margin: 30px auto;
+    }
+    #register_modal .modal-body{
+        padding: 0px 20px;
+    }
+}
+@media (min-width: 768px){
+    #register_modal .modal-body{
+        padding: 0px 20px;
+    }
 }

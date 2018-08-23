@@ -44,7 +44,7 @@
                             <a class="btn btn-warning external" href="#">Đăng nhập</a>
                         </li>
                         <li>
-                            <a class="btn btn-warning external" href="#">Đăng ký</a>
+                            <a class="btn btn-warning external" href="#" data-toggle="modal" data-target="#register_modal">Đăng ký</a>
                         </li>
                     </ul>
                     <div style="/*display:inline-block*/ display: none;margin:15px 15px 0 10px;">
@@ -68,9 +68,9 @@
                             <a href="/session/signin">Đăng nhập</a>
                         </li>
                         <li>
-                            <a href="/session/signup">Đăng ký</a>
+                            <a href="" data-toggle="modal" data-target="#register_modal">Đăng ký</a>
                         </li>
-                        <li class="switchLanguageBtn" hidden>
+                        <li class="switchLanguageBtn" style="display: none">
                             <div style="display: inline-block; margin: 15px 15px 0px 10px;">
                                 <a class="select-language">Ngôn ngữ trang&nbsp;
                                     <span class="language flag-icon flag-icon-vn"> </span>
@@ -188,7 +188,7 @@
         <div class="container">
             <div class="section-heading text-center">
                 <h2>Học viên nói gì về GrabLingo</h2>
-                <div>
+                <div hidden>
                     <span class="circle1">o</span>
                 </div>
             </div>
@@ -372,7 +372,7 @@
                 <div class="col-md-12 section-heading text-center">
                     <div class="col-md-8 col-md-offset-2 subtext">
                         <h1>KHÁCH HÀNG VÀ ĐỐI TÁC CỦA GRABLINGO</h1>
-                        <span class="circle1">o</span></div>
+                        <span class="circle1" hidden>o</span></div>
                 </div>
             </div>
             <div class="row">
@@ -453,6 +453,32 @@
                 </small>
             </div>
         </div>
+    </div>
+</div>
+<!-- Modal -->
+<div id="register_modal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header" hidden>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Modal Header</h4>
+            </div>
+            <div class="modal-body text-center">
+                <h2>ANH CHỊ HÃY ĐĂNG KÝ THÔNG TIN TẠI ĐÂY</h2>
+                <h3>Tư vấn của SS sẽ hỗ trợ thông tin đầy đủ, rõ ràng, chi tiết</h3>
+                <input type="text" class="form-group form-control" placeholder="Họ tên">
+                <input type="text" class="form-group form-control" placeholder="Số điện thoại">
+                <input type="text" class="form-group form-control" placeholder="Email">
+                <input type="text" class="form-group form-control" placeholder="Tuổi">
+            </div>
+            <div class="modal-footer text-center">
+                <button type="button" class="btn btn-default btn_submit_register">ĐĂNG KÝ NGAY</button>
+<!--                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+            </div>
+        </div>
+
     </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
