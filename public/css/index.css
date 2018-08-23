@@ -979,30 +979,30 @@ img{
     padding: 20px 0;
 }
 /*modal*/
-#register_modal h2{
+.modal_temp h2{
     font-weight: 800;
     margin-bottom: 10px;
     font-size: 20px;
 }
-#register_modal h3{
+.modal_temp h3{
     color: #555;
     font-size: 15px;
     margin-top: 5px;
     margin-bottom: 20px;
 }
-#register_modal .modal-body{
+.modal_temp .modal-body{
     padding: 0px 25px;
 }
-#register_modal .modal-footer{
+.modal_temp .modal-footer{
     padding: 10px 25px;
     border: none;
     padding-bottom: 15px;
 }
-#register_modal .modal-body input{
+.modal_temp .modal-body input{
     /*border: 1px solid #000;*/
     /*height: 39px;*/
 }
-#register_modal .btn_submit_register{
+.modal_temp .btn_submit_register{
     background-color: var(--background-color);
     color: #fff;
     width: 100%;
