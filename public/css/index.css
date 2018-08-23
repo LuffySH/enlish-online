@@ -2,7 +2,7 @@ body{
     font-family: 'Roboto',sans-serif;
     font-weight: 300;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: antialiased;
+    /*-moz-osx-font-smoothing: antialiased;*/
     font-size: 16px;
     line-height: 1.5;
     background: #f1f1f1;
@@ -10,7 +10,10 @@ body{
     position: relative;
 }
 body {
-    --background-color: #1FBAE3;
+    /*--background-color: #1FBAE3;*/
+    --background-color: #b30c12;
+    /*--text-color: rgb(0, 185, 229);*/
+    --text-color: #bd0d10;
 }
 h1, h2, h3, h4, h5, h6 {
     color: #333;
@@ -55,7 +58,7 @@ img{
     z-index: 99;
     width: 100%;
     opacity: 1;
-    background: #1FBAE3;
+    background: var(--background-color);
     padding-top: 17px;
 }
 #banner_header .navbar-default{
@@ -239,7 +242,7 @@ img{
         transform:none
     }
 }
-}@keyframes fadeOutRight{
+@keyframes fadeOutRight{
      from{
          opacity:1
      }
@@ -304,7 +307,7 @@ img{
     border-image: initial;
 }
 #banner_slide .carousel-indicators li.active{
-    background-color: rgb(0, 185, 229);
+    background-color: var(--text-color);
     width: 16px;
     height: 16px;
     border-width: initial;
@@ -340,7 +343,7 @@ img{
 }
 #intro1 h2{
     font-size: 24px;
-    color: rgb(0, 185, 229);
+    color: var(--text-color);
     font-weight: bold;
     margin-top: 0px;
     margin-bottom: 20px;
@@ -352,7 +355,7 @@ img{
 }
 #intro2 h2{
     font-size: 32px;
-    color: rgb(0, 185, 229);
+    color: var(--text-color);
     font-weight: bold;
     text-align: center;
 }
@@ -386,19 +389,21 @@ img{
 }
 #intro3 h2{
     font-size: 32px;
-    color: rgb(0, 185, 229);
+    color: var(--text-color);
     font-weight: bold;
     text-align: center;
 }
 #intro3 h4{
     text-align: center;
+    color: #805d58;
 }
 #intro3 .content{
     margin: 50px 0;
 }
 #intro3 .content .item_md_4{
     text-align: center;
-    background-color: rgb(238, 243, 243);
+    /*background-color: rgb(238, 243, 243);*/
+    background-color: #ebebeb;
     height: 250px;
     margin-top: 10px;
     padding: 10px;
@@ -409,21 +414,24 @@ img{
 }
 #intro3 .content .item_md_4 .p_title{
     font-size: 20px;
-    color: rgb(0, 185, 229);
+    color: var(--text-color);
     font-weight: bold;
     text-align: center;
     margin: 15px 0px;
 }
 #intro3 .content .item_md_4 p{
     text-align: center;
+    color: #a15b39;
 }
 /*intro4*/
 #intro4{
     padding: 80px 0;
-    background: rgb(31, 186, 227);
+    /*background: rgb(31, 186, 227);*/
+    background: #f5f5f5;
 }
 #intro4 h2{
-    color: white;
+    /*color: white;*/
+    color: var(--text-color);
     text-align: center;
     font-size: 32px !important;
     font-weight: bold !important;
@@ -466,10 +474,11 @@ img{
     margin-top: 10px;
     background: white;
     padding: 10px 10px 120px;
-    border-width: 2px;
-    border-style: solid;
-    border-color: rgb(237, 91, 62);
-    border-image: initial;
+    border-radius: 20px;
+    /*border-width: 2px;*/
+    /*border-style: solid;*/
+    /*border-color: rgb(237, 91, 62);*/
+    /*border-image: initial;*/
 }
 #intro4 .content .item_content blockquote{
     font-style: italic;
@@ -508,7 +517,8 @@ img{
     padding: 0px 20px;
 }
 #intro4 .info_footer .info_name{
-    color: rgb(46, 187, 225);
+    /*color: rgb(46, 187, 225);*/
+    color: #a15b39;
     font-weight: bold;
     margin: 20px 0px 0px;
 }
@@ -533,7 +543,7 @@ img{
 }
 #intro5 h2{
     font-size: 32px;
-    color: rgb(0, 185, 229);
+    color: var(--text-color);
     font-weight: bold;
     text-align: center;
     margin: 0px 0px 10px;
@@ -559,7 +569,7 @@ img{
     margin-left: 5px;
 }
 #intro5 .carousel-indicators li.active{
-    background-color: rgb(0, 185, 229);
+    background-color: var(--text-color);
     width: 16px;
     height: 16px;
 }
@@ -631,7 +641,7 @@ img{
 }
 #intro6 h2{
     font-size: 32px;
-    color: rgb(0, 185, 229);
+    color: var(--text-color);
     font-weight: bold;
     text-align: center;
     margin: 0px;
@@ -648,7 +658,7 @@ img{
     height: 14px;
 }
 #intro6 #carousel-simple2 ol li.active{
-    background-color: rgb(0, 185, 229);
+    background-color: var(--text-color);
     width: 16px;
     height: 16px;
 }
@@ -665,7 +675,7 @@ img{
     left: 0px;
     height: 5px;
     width: 70px;
-    background-color: rgb(0, 185, 229);
+    background-color: var(--text-color);
     position: absolute;
 }
 #intro6 #carousel-simple2 .item p.info_job{

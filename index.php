@@ -47,7 +47,7 @@
                             <a class="btn btn-warning external" href="#">Đăng ký</a>
                         </li>
                     </ul>
-                    <div style="display:inline-block;margin:15px 15px 0 10px;">
+                    <div style="/*display:inline-block*/ display: none;margin:15px 15px 0 10px;">
                         <a class="select-language">&nbsp;
                             <span class="language flag-icon flag-icon-vn"> </span>
                         </a>
@@ -275,11 +275,11 @@
                 <h2>LỚP HỌC MẪU TẠI GRABLINGO</h2>
             </div>
             <div class="row">
-                <div id="carousel-simple2" class="carousel slide carousel-fade carouself">
+                <div id="carousel-simple-video" class="carousel slide carousel-fade carouself">
                     <ol class="carousel-indicators">
-                        <li class="active" style="margin-left:10px;" data-target="#carousel-simple2" data-slide-to="0"></li>
-                        <li class="" style="margin-left:10px;" data-target="#carousel-simple2" data-slide-to="1"></li>
-                        <li class="" style="margin-left:10px;" data-target="#carousel-simple2" data-slide-to="2"></li>
+                        <li class="active" style="margin-left:10px;" data-target="#carousel-simple-video" data-slide-to="0"></li>
+                        <li class="" style="margin-left:10px;" data-target="#carousel-simple-video" data-slide-to="1"></li>
+                        <li class="" style="margin-left:10px;" data-target="#carousel-simple-video" data-slide-to="2"></li>
                     </ol>
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
@@ -458,6 +458,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="public/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+<script src="public/js/jquery.mobile.swiper.js"></script>
 <script>
     $(document).ready(function () {
         $('#intro5 .item_content').on('mouseover', function () {
@@ -488,6 +489,13 @@
                 $('#carousel-simple2').show();
             }
         });
+        $('#carousel_banner').bcSwipe({ threshold: 50 });
+//        $("#carousel_banner").swiperight(function() {
+//            $(this).carousel('prev');
+//        });
+//        $("#carousel_banner").swipeleft(function() {
+//            $(this).carousel('next');
+//        });
     })
 </script>
 </body>
