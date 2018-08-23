@@ -442,12 +442,18 @@
         <div class="container">
             <p>© 2016 GrabLingo.</p>
             <div>
-                <small>Công ty TNHH GrabLingo (Số đăng ký: 0313761210)</small>
+                <small>CÔNG TY TNHH Phát triển giáo dục SS GLOBAL</small>
             </div>
             <div>
                 <small>
                     <i class="icon-map-marker"></i>
-                    1/1 Hoàng Việt, Phường 4, Quận Tân Bình, TP.HCM
+                    Văn phòng Hà Nội: 36B5, Ngõ 6, Đường Kim Đồng, P. Giáp Bát, Q. Hoàng Mai, Hà Nội
+                </small>
+            </div>
+            <div>
+                <small>
+                    <i class="icon-map-marker"></i>
+                    Văn phòng HCM: SABAY OFFICE CENTER 11A Hồng Hà, Phường 2, Quận Tân Bình, TP. Hồ Chí Minh
                 </small>
             </div>
         </div>
@@ -530,7 +536,6 @@
         }
         $(window).on('resize', function(){
             var win = $(this); //this = window
-            console.log(win.width());
             if (win.width() >= 676) {
                 $('#carousel-simple1').show();
                 $('#carousel-simple2').hide();
@@ -550,7 +555,7 @@
             $(".carousel-inner").swipeleft(function() {
                 $(this).parent().carousel('next');
             });
-
+        $('.ui-loader').css('display','none');
     })
 </script>
 </body>
