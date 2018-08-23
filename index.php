@@ -65,7 +65,7 @@
                             <a href="https://blog.grablingo.com">Blog</a>
                         </li>
                         <li>
-                            <a href="" data-toggle="modal" data-target="#register_modal">Đăng nhập</a>
+                            <a href="" data-toggle="modal" data-target="#login_modal">Đăng nhập</a>
                         </li>
                         <li>
                             <a href="" data-toggle="modal" data-target="#register_modal">Đăng ký</a>
