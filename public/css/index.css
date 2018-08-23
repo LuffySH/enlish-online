@@ -52,6 +52,14 @@ img{
     line-height: 1.5;
     text-transform: uppercase;
 }
+@media (max-width: 676px){
+    .container .section-heading {
+        padding-bottom: 10px;
+    }
+    .container .section-heading h2{
+        line-height: 1;
+    }
+}
 /*---------------------------------------------------------------------*/
 /*banner_header*/
 #banner_header{
@@ -332,6 +340,11 @@ img{
 #banner_slide .carousel-inner .item_img3{
     height: 100%;
     background: url(../../public/imgs/banner/BANNER-3--LANGDING-PAGE.png) 0% 0% / 100% 100% no-repeat;
+}
+@media (max-width: 676px){
+    #banner_slide .carousel-indicators {
+        bottom: -10px;
+    }
 }
 /*intro1*/
 #intro1{

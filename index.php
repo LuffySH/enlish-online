@@ -188,7 +188,7 @@
         <div class="container">
             <div class="section-heading text-center">
                 <h2>Học viên nói gì về GrabLingo</h2>
-                <div>
+                <div hidden>
                     <span class="circle1">o</span>
                 </div>
             </div>
@@ -372,7 +372,7 @@
                 <div class="col-md-12 section-heading text-center">
                     <div class="col-md-8 col-md-offset-2 subtext">
                         <h1>KHÁCH HÀNG VÀ ĐỐI TÁC CỦA GRABLINGO</h1>
-                        <span class="circle1">o</span></div>
+                        <span class="circle1" hidden>o</span></div>
                 </div>
             </div>
             <div class="row">
