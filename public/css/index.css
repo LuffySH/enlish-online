@@ -646,30 +646,30 @@ img{
     text-align: center;
     /*margin: 0px;*/
 }
-#intro6 #carousel-simple2{
+#intro6 #carousel-simple-video{
     margin: 40px 0px;
 }
-#intro6 #carousel-simple2 ol{
+#intro6 #carousel-simple-video ol{
     bottom: -20px;
 }
-#intro6 #carousel-simple2 ol li{
+#intro6 #carousel-simple-video ol li{
     background-color: rgb(137, 134, 134);
     width: 14px;
     height: 14px;
 }
-#intro6 #carousel-simple2 ol li.active{
+#intro6 #carousel-simple-video ol li.active{
     background-color: var(--text-color);
     width: 16px;
     height: 16px;
 }
-#intro6 #carousel-simple2 .item p.info_name{
+#intro6 #carousel-simple-video .item p.info_name{
     font-weight: bold;
     text-transform: uppercase;
     font-size: 20px;
     position: relative;
     margin-bottom: 30px;
 }
-#intro6 #carousel-simple2 .item p.info_name:after{
+#intro6 #carousel-simple-video .item p.info_name:after{
     content: "";
     bottom: -5px;
     left: 0px;
@@ -678,7 +678,7 @@ img{
     background-color: var(--text-color);
     position: absolute;
 }
-#intro6 #carousel-simple2 .item p.info_job{
+#intro6 #carousel-simple-video .item p.info_job{
     font-weight: bold;
 }
 /*intro7*/

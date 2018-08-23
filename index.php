@@ -70,7 +70,7 @@
                         <li>
                             <a href="/session/signup">Đăng ký</a>
                         </li>
-                        <li class="switchLanguageBtn">
+                        <li class="switchLanguageBtn" hidden>
                             <div style="display: inline-block; margin: 15px 15px 0px 10px;">
                                 <a class="select-language">Ngôn ngữ trang&nbsp;
                                     <span class="language flag-icon flag-icon-vn"> </span>
