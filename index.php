@@ -491,16 +491,19 @@
     $(document).ready(function () {
         $('#intro5 .item_content').on('mouseover', function () {
             $(this).find('.info_hidden').css('top','0px');
-        })
+        });
         $('#intro5 .item_content').on('mouseleave', function () {
             $(this).find('.info_hidden').css('top','100%');
-        })
+        });
         $('body').on('click','#banner_header .template-nav-toggle', function () {
             $('#navbar-sm').show();
         })
         $('body').on('click', '#banner_header .nav-bg', function () {
             $('#navbar-sm').hide();
-        })
+        });
+        $('body').on('click', '#banner_slide .carousel-inner .item', function () {
+            $('#register_modal').modal('show');
+        });
         if ($(window).width() < 676){
             $('#carousel-simple1').hide();
             $('#carousel-simple2').show();
