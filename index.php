@@ -44,7 +44,7 @@
                             <a class="btn btn-warning external" href="#" data-toggle="modal" data-target="#login_modal">Đăng nhập</a>
                         </li>
                         <li>
-                            <a class="btn btn-warning external" href="#" data-toggle="modal" data-target="#login_modal">Đăng ký</a>
+                            <a class="btn btn-warning external" href="#" data-toggle="modal" data-target="#register_modal">Đăng ký</a>
                         </li>
                     </ul>
                     <div style="/*display:inline-block*/ display: none;margin:15px 15px 0 10px;">
@@ -85,24 +85,22 @@
 </div>
 <div id="content">
     <section id="banner_slide">
-        <div class="row">
-            <div class="carousel_container">
-                <div id="carousel_banner" class="carousel slide carousel-fade carouself">
-                    <ol class="carousel-indicators">
-                        <li class="active" style="margin-left:10px;" data-target="#carousel_banner" data-slide-to="0"></li>
-                        <li class="" style="margin-left:10px;" data-target="#carousel_banner" data-slide-to="1"></li>
-                        <li class="" style="margin-left:10px;" data-target="#carousel_banner" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner" role="listbox">
-                        <div class="item active">
-                            <div class="item_img1"></div>
-                        </div>
-                        <div class="item">
-                            <div class="item_img2"></div>
-                        </div>
-                        <div class="item">
-                            <div class="item_img3"></div>
-                        </div>
+        <div class="carousel_container">
+            <div id="carousel_banner" class="carousel slide carousel-fade carouself">
+                <ol class="carousel-indicators">
+                    <li class="active" style="margin-left:10px;" data-target="#carousel_banner" data-slide-to="0"></li>
+                    <li class="" style="margin-left:10px;" data-target="#carousel_banner" data-slide-to="1"></li>
+                    <li class="" style="margin-left:10px;" data-target="#carousel_banner" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <div class="item_img1"></div>
+                    </div>
+                    <div class="item">
+                        <div class="item_img2"></div>
+                    </div>
+                    <div class="item">
+                        <div class="item_img3"></div>
                     </div>
                 </div>
             </div>
@@ -376,7 +374,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="text-center">
+                <div class="col-md-12 text-center">
                     <img class="list_img" src="https://farm5.staticflickr.com/4792/26889384458_27fd0c3bda_o_d.png">
                 </div>
             </div>
@@ -398,20 +396,20 @@
     <div class="container">
         <div class="row" style="padding-bottom: 80px;">
             <div class="col-md-5">
-                <h3 class="footer_header">GrabLingo</h3>
+                <h3 class="footer_header">CÔNG TY TNHH Phát triển giáo dục SS GLOBAL</h3>
                 <p>Cộng đồng học tiếng Anh trực tuyến với giáo viên bản ngữ lớp 1 thầy 1 trò.</p>
                 <ul class="contact-info">
                     <li>
                         <i class="fa fa-phone" aria-hidden="true"></i>
-                        <a href="tel:1900633690">Tổng đài: 1900 633 690</a>
+                        <a href="tel:0973.286.216">Tổng đài: 0973.286.216 / 0125.4400.111</a>
                     </li>
                     <li>
                         <i class="fa fa-envelope"></i>
-                        <a href="mailto:hello@grablingo.com">hello@grablingo.com</a>
+                        <a href="mailto:sseduglobal@gmail.com">sseduglobal@gmail.com</a>
                     </li>
                     <li>
                         <i class="fa fa-globe"></i>
-                        <a href="/">www.grablingo.com</a>
+                        <a href="/">http://v4.study1on1.com/</a>
                     </li>
                 </ul>
                 <ul class="social-media">
@@ -435,7 +433,7 @@
             <div class="col-md-5">
                 <h3 class="footer_header">Kết nối với chúng tôi</h3>
                 <div class="fb_group_connect">
-
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fss.edu.vn%2F&tabs=timeline&width=340&height=200&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=403219476738177" width="340" height="200" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
                 </div>
             </div>
         </div>
@@ -491,7 +489,7 @@
                 <h4 class="modal-title">Modal Header</h4>
             </div>
             <div class="modal-body text-center">
-                <h2>Đăng nhập</h2>
+                <h2>ĐĂNG NHẬP</h2>
                 <input type="text" class="form-group form-control" placeholder="Tên đăng nhập">
                 <input type="text" class="form-group form-control" placeholder="Mật khẩu">
             </div>
