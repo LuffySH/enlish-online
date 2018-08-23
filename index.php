@@ -41,10 +41,10 @@
                 <div class="navbar-right">
                     <ul class="nav navbar-nav">
                         <li>
-                            <a class="btn btn-warning external" href="#">Đăng nhập</a>
+                            <a class="btn btn-warning external" href="#" data-toggle="modal" data-target="#login_modal">Đăng nhập</a>
                         </li>
                         <li>
-                            <a class="btn btn-warning external" href="#" data-toggle="modal" data-target="#register_modal">Đăng ký</a>
+                            <a class="btn btn-warning external" href="#" data-toggle="modal" data-target="#login_modal">Đăng ký</a>
                         </li>
                     </ul>
                     <div style="/*display:inline-block*/ display: none;margin:15px 15px 0 10px;">
@@ -65,7 +65,7 @@
                             <a href="https://blog.grablingo.com">Blog</a>
                         </li>
                         <li>
-                            <a href="/session/signin">Đăng nhập</a>
+                            <a href="" data-toggle="modal" data-target="#register_modal">Đăng nhập</a>
                         </li>
                         <li>
                             <a href="" data-toggle="modal" data-target="#register_modal">Đăng ký</a>
@@ -456,7 +456,7 @@
     </div>
 </div>
 <!-- Modal -->
-<div id="register_modal" class="modal fade" role="dialog">
+<div id="register_modal" class="modal fade modal_temp" role="dialog">
     <div class="modal-dialog">
 
         <!-- Modal content-->
@@ -476,6 +476,28 @@
             <div class="modal-footer text-center">
                 <button type="button" class="btn btn-default btn_submit_register">ĐĂNG KÝ NGAY</button>
 <!--                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+            </div>
+        </div>
+
+    </div>
+</div>
+<div id="login_modal" class="modal fade modal_temp" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header" hidden>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Modal Header</h4>
+            </div>
+            <div class="modal-body text-center">
+                <h2>Đăng nhập</h2>
+                <input type="text" class="form-group form-control" placeholder="Tên đăng nhập">
+                <input type="text" class="form-group form-control" placeholder="Mật khẩu">
+            </div>
+            <div class="modal-footer text-center">
+                <button type="button" class="btn btn-default btn_submit_register">ĐĂNG NHẬP</button>
+                <!--                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
             </div>
         </div>
 
