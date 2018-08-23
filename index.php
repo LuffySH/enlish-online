@@ -492,6 +492,7 @@
         $('#carousel_banner').bcSwipe({ threshold: 50 });
         $('#carousel-simple1').bcSwipe({ threshold: 50 });
         $('#carousel-simple2').bcSwipe({ threshold: 50 });
+        $('#carousel-simple-video').bcSwipe({ threshold: 50 });
 //        $("#carousel_banner").swiperight(function() {
 //            $(this).carousel('prev');
 //        });
